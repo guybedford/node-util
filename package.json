@@ -33,15 +33,6 @@
     "./support/isBuffer.js": "./support/isBufferBrowser.js"
   },
   "jspm": {
-    "registry": "npm",
-    "map": {
-      "./util.js": {
-        "node": "@node/util"
-      },
-      "./index.js": {
-        "node": "@node/util",
-        "~node": "./util.js"
-      }
-    }
+    "registry": "npm"
   }
 }
