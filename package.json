@@ -34,5 +34,14 @@
   },
   "jspm": {
     "registry": "npm"
+    "map": {
+      "./util.js": {
+        "node": "@node/util"
+      },
+      "./index.js": {
+        "node": "@node/util",
+        "~node": "./util.js"
+      }
+    }
   }
 }
